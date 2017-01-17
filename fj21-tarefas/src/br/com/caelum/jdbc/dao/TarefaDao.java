@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import br.com.caelum.tarefas.jdbc.*;
+import br.com.caelum.jdbc.*;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 public class TarefaDao {
