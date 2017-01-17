@@ -2,7 +2,7 @@ package br.com.caelum.tarefas.modelo;
 
 import java.util.Calendar;
 
-public class tarefas {
+public class Tarefa {
 
 	private Long id;
 	private String descricao;
