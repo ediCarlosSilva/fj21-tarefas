@@ -1,4 +1,4 @@
-package br.com.caelum.jdbc.dao;
+package br.com.caelum.tarefas.jdbc.dao;
 
 import java.sql.Connection;
 import java.sql.Date;
@@ -9,7 +9,7 @@ import java.util.ArrayList;
 import java.util.Calendar;
 import java.util.List;
 
-import br.com.caelum.jdbc.*;
+import br.com.caelum.tarefas.jdbc.*;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 public class TarefaDao {

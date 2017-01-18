@@ -1,10 +1,10 @@
-package br.com.caelum.jdbc.teste;
+package br.com.caelum.tarefas.jdbc.teste;
 
 import java.util.Calendar;
 
 import javax.swing.JOptionPane;
 
-import br.com.caelum.jdbc.dao.TarefaDao;
+import br.com.caelum.tarefas.jdbc.dao.TarefaDao;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 public class TestaInsere {

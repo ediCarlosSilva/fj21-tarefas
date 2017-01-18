@@ -1,9 +1,9 @@
-package br.com.caelum.jdbc.teste;
+package br.com.caelum.tarefas.jdbc.teste;
 
 import java.sql.Connection;
 import java.sql.SQLException;
 
-import br.com.caelum.jdbc.ConnectionFactory;
+import br.com.caelum.tarefas.jdbc.ConnectionFactory;
 
 public class TestaConexao {
 

@@ -1,9 +1,9 @@
-package br.com.caelum.jdbc.teste;
+package br.com.caelum.tarefas.jdbc.teste;
 
 import java.text.SimpleDateFormat;
 import java.util.List;
 
-import br.com.caelum.jdbc.dao.TarefaDao;
+import br.com.caelum.tarefas.jdbc.dao.TarefaDao;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 public class TestaLista {

@@ -1,4 +1,4 @@
-package br.com.caelum.jdbc.teste;
+package br.com.caelum.tarefas.jdbc.teste;
 
 import java.util.Calendar;
 import java.sql.Date;
