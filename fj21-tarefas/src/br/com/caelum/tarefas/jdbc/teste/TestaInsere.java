@@ -18,7 +18,7 @@ public class TestaInsere {
 		// grave nessa conexão !!!
 		TarefaDao dao = new TarefaDao();
 		
-		// método elegante
+		// método adiciona da classe TarefaDao
 		
 		dao.adiciona(tarefa);
 		
