@@ -4,7 +4,7 @@ import java.util.Calendar;
 
 import javax.swing.JOptionPane;
 
-import br.com.caelum.tarefas.jdbc.dao.TarefaDao;
+import br.com.caelum.tarefas.jdbc.dao.JdbcTarefaDao;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
 public class TestaInsere {
@@ -16,7 +16,7 @@ public class TestaInsere {
 		tarefa.setDescricao(JOptionPane.showInputDialog("Digite a descriçao."));
 		
 		// grave nessa conexão !!!
-		TarefaDao dao = new TarefaDao();
+		JdbcTarefaDao dao = new JdbcTarefaDao();
 		
 		// método adiciona da classe TarefaDao
 		

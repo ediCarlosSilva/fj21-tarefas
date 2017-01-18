@@ -12,17 +12,17 @@ import java.util.List;
 import br.com.caelum.tarefas.jdbc.*;
 import br.com.caelum.tarefas.modelo.Tarefa;
 
-public class TarefaDao {
+public class JdbcTarefaDao {
 
 	// a conexão com o banco de dados
 	private Connection connection;
 
-	public TarefaDao ( Connection connection ) {
+	public JdbcTarefaDao ( Connection connection ) {
 		this.connection = connection;
 	}
 	
 	
-	public TarefaDao() {
+	public JdbcTarefaDao() {
 		this.connection = new ConnectionFactory().getConnection();
 	}
 
