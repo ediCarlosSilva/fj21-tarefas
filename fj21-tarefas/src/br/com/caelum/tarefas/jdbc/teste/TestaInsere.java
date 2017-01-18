@@ -14,14 +14,11 @@ public class TestaInsere {
 		Tarefa tarefa = new Tarefa();
 		
 		tarefa.setDescricao(JOptionPane.showInputDialog("Digite a descriçao."));
-//		tarefa.setFinalizado(JOptionPane.showInputDialog("Digite o e-mail."));
-		tarefa.setFinalizado(true);
-		tarefa.setDataFinalizacao(Calendar.getInstance());
 		
 		// grave nessa conexão !!!
 		TarefaDao dao = new TarefaDao();
 		
-		// método elegante
+		// método adiciona da classe TarefaDao
 		
 		dao.adiciona(tarefa);
 		

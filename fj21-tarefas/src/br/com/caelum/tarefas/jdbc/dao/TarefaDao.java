@@ -28,7 +28,7 @@ public class TarefaDao {
 
 	public void adiciona(Tarefa tarefa) {
 
-		String sql = "insert into tarefas " + "(descricao, finalizacao, dataFinalizacao)" + " values (?,?,?)";
+		String sql = "insert into tarefas " + "(descricao)" + " values (?)";
 
 		try {
 			// prepared statement para inserção
@@ -36,8 +36,6 @@ public class TarefaDao {
 
 			// seta os valores
 			stmt.setString(1, tarefa.getDescricao());
-			stmt.setBoolean(2, tarefa.isFinalizado());
-			stmt.setDate(3, new Date(tarefa.getDataFinalizacao().getTimeInMillis()));
 
 			// executa
 			stmt.execute();
