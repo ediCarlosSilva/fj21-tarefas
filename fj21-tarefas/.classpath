@@ -32,5 +32,7 @@
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/hibernate-validator-5.0.2.Final.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/jboss-logging-3.1.1.GA.jar"/>
 	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/validation-api-1.1.0.Final.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/javax.servlet.jsp.jstl-api-1.2.1.jar"/>
+	<classpathentry kind="lib" path="WebContent/WEB-INF/lib/standard-1.1.2.jar"/>
 	<classpathentry kind="output" path="build/classes"/>
 </classpath>
