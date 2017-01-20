@@ -13,7 +13,7 @@ public class TestaLista {
 		JdbcTarefaDao dao = new JdbcTarefaDao();
 		SimpleDateFormat sdf = new SimpleDateFormat("dd/MM/yyyy");
 		
-		List<Tarefa> tarefas = dao.getLista();
+		List<Tarefa> tarefas = dao.lista();
 		
 		for ( Tarefa tarefa : tarefas ) {
 			System.out.println("Descrição: " + tarefa.getDescricao());

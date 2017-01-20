@@ -1,7 +1,5 @@
 package br.com.caelum.tarefas.jdbc.teste;
 
-import java.util.Calendar;
-
 import javax.swing.JOptionPane;
 
 import br.com.caelum.tarefas.jdbc.dao.JdbcTarefaDao;
