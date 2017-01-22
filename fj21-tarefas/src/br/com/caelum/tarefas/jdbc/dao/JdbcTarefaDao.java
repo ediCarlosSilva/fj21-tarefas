@@ -121,7 +121,7 @@ public class JdbcTarefaDao {
 
 	}
 	
-public void altera ( Tarefa tarefa ) {
+	public void altera ( Tarefa tarefa ) {
 		
 		String sql = "update tarefas set descricao = ?, finalizado = ?, " +
 		" dataFinalizacao = ? where id = ?";
@@ -143,4 +143,29 @@ public void altera ( Tarefa tarefa ) {
 		}
 	}
 
+	public void finaliza( Long id ) {
+		
+		if ( id == null ) {
+			throw new IllegalStateException("Id da tarefa não deve ser nulo.");
+		}
+		
+		String sql = "update tarefas set finalizado = ?, dataFinalizacao = ? where id = ?";
+		PreparedStatement stmt;
+		
+		try {
+			
+			stmt = connection.prepareStatement(sql);
+			stmt.setBoolean(1, true);
+			stmt.setDate(2, new Date(Calendar.getInstance().getTimeInMillis()));
+			stmt.setLong(3, id);
+			stmt.execute();
+			
+			
+		} catch ( SQLException e ) {
+			throw new RuntimeException(e);
+		}
+		
+		
+	}
+	
 }

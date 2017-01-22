@@ -7,9 +7,10 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
-<link href="resources/css/jquery-ui.css" rel="stylesheet">
+<link href="resources/css/jquery.css" rel="stylesheet">
 <script src="resources/js/jquery.js"></script>
 <script src="resources/js/jquery-ui.js"></script>
+<!-- <link type="text/css" href="resources/css/tarefas.css" rel="stylesheet"> -->
 </head>
 <body>
 
@@ -27,10 +28,9 @@
 		Finalizado? <input type="checkbox" name="finalizado" 
 			value="true" ${tarefa.finalizado ? 'checked' : '' }/> <br />
 		
-		Data de finalização: <br />
-		<input type="text" name="dataFinalizacao"
-			value="<fmt:formatDate value="${tarefa.dataFinalizacao.time}"
-			pattern="dd/MM/yyyy" />" />
+		<fmt:formatDate value="${tarefa.dataFinalizacao.time}" 
+		pattern="dd/MM/yyyy" var="data" />
+		Data de finalizacao: <caelum:campoData id="dataFinalizacao" value="${data }" /> 
 		
 		<br />
 		
