@@ -9,6 +9,8 @@
 <body>
 
 	Nova tarefa adicionada com sucesso!
+	
+	<a href="listaTarefas">listar Tarefas</a>
 
 </body>
 </html>
