@@ -8,6 +8,7 @@
 <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
 <title>Insert title here</title>
 <link href="resources/css/jquery.css" rel="stylesheet">
+<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet" /> 
 <script src="resources/js/jquery.js"></script>
 <script src="resources/js/jquery-ui.js"></script>
 <!-- <link type="text/css" href="resources/css/tarefas.css" rel="stylesheet"> -->

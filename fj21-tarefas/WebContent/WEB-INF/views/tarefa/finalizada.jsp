@@ -1,4 +1,5 @@
 <%@ taglib uri="http://java.sun.com/jsp/jstl/fmt" prefix="fmt" %>
+<link type="text/css" href="resources/css/tarefas.css" rel="stylesheet" />
 
 <td>${tarefa.id} </td>
 <td>${tarefa.descricao} </td>
