@@ -13,7 +13,7 @@ public class AdicionaTarefa {
 	public static void main ( String[] args ) {
 		
 		Tarefa tarefa = new Tarefa();
-		tarefa.setDescricao("Estudar JavaWEb");
+		tarefa.setDescricao("Estudar JPA hibernate");
 		tarefa.setFinalizado(true);
 		tarefa.setDataFinalizacao(Calendar.getInstance());
 		
